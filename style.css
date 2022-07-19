@@ -1,0 +1,46 @@
+.navLink{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding-right: 2%;
+}
+
+#logo{
+    background-color: green;
+    color: white;
+    justify-content: left;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 500%;
+    height: 70%;
+}
+
+.box {
+    border: black 2px solid;
+    margin: 1%;
+    padding: 2%;
+}
+
+.rightPanel
+{
+    height: 100%;
+    border: black 2px solid;
+    margin: 1%;
+    padding: 5%;    
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.nav:hover {
+    background-color: red;
+}
+

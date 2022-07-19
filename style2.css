@@ -1,0 +1,67 @@
+.navLink{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding-right: 2%;
+}
+
+#logo{
+    background-color: green;
+    color: white;
+    justify-content: left;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 500%;
+    height: 70%;
+}
+
+.square {
+    border: black 2px solid;
+    margin: 1%;
+    padding: 2%;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rightPanel
+{
+    height: 100%;
+    border: black 2px solid;
+    margin: 1%;
+    padding: 5%;    
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.nav:hover {
+    background-color: red;
+}
+
+.blackbox {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    margin: 5px;
+}
